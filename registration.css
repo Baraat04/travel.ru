@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: gray;
+}
+/* pop-up */
+.pop-up{
+    display: flex;
+    width: 559px;
+    height: 569px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 12px;
+    margin-top: 60px;
+}
+
+.pop-up-container{
+    width: 479px;
+    height: auto;
+    padding: 37px;
+    margin: 0 auto;
+}
+
+.title{
+    font-family: Inter;
+    font-size: 34px;
+    color: black;
+}
+
+.main-pop-up-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 459px;
+    height:400px;
+    margin: 0 auto;
+    margin-top: 63px;
+}
+
+.main-pop-up-inputs,.input-email,.input-password{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.input-email{
+    background: url(icons/email.png) 0px 10px no-repeat;
+    padding: 15px;
+    padding-left: 46px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 406px;
+}
+
+.input-password{
+    background: url(icons/lock.png) 0px 10px no-repeat;
+    padding: 15px;
+    padding-left: 46px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 406px;
+}
+
+.pop-up-checkbox-line{
+    display: flex;
+    justify-content: space-between;
+    width: 460px;
+}
+
+.pop-up-checkbox-line a{
+    text-decoration: none;
+    color: #4070F6;
+    font-family: Inter;
+    font-weight: 500;
+}
+.pop-up-checkbox{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 170px;
+    color: #757575;
+    font-size: 16px;
+    font-family: Montserrat;
+    margin-top: 0px;
+}
+
+.pop-up-checkbox label{
+    margin-top: 2px;
+}
+
+.pop-up-input1 img{
+    margin-top: 15px;
+}
+
+.pop-up-enter-btn{
+    width: 479px;
+    height: auto;
+}
+
+.pop-up-sign-in{
+    display: flex;
+    justify-content: center;
+    width: 479px;
+    font-family: Inter;
+    font-weight: 400;
+    margin-top: 44px;
+}
+
+.pop-up-sign-in a{
+    color: #4070F5;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.pop-up-btn{
+    width: 478px;
+    height: 66px;
+    border: 0;
+    background: #4070F4;
+    color: white;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 6px;
+}
+/* pop-up */
